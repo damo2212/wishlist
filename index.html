@@ -546,6 +546,7 @@
             <p class="name">${safeText(g.name)}</p>
             <div class="meta">
               <span class="tag">${safeText(g.platform) || "Platform"}</span>
+              <span class="tag">Priority: ${safeText(g.priority) || "—"}</span>
               ${g.notes ? `<span class="tag">${safeText(g.notes)}</span>` : ""}
             </div>
             <div class="priceRow">
